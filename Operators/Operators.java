@@ -40,5 +40,65 @@ public class Operators {
     // result = result - 2;
     result -= 2; // 10 - 2 = 8
     System.out.println("10 - 2 = " + result);
+
+    boolean isAlien = false;
+    if (isAlien == false) 
+      System.out.println("It is not an alien!");
+
+    if (isAlien == true);  // notice ; on this line! ends if statement and System.out below will print no matter how if statement goes!
+      System.out.println("It is still not an alien!");
+
+    if (isAlien == true) 
+      System.out.println("If it was really an alien"); // this line does not print as only one line is controlled by the if statement when there is no code block
+      System.out.println("Then I would be scared of it");
+    
+    if (isAlien == false) { // curly brace here and the first one below create a code block and allow for multiple lines of code to be run from the same if statement
+      System.out.println("I'm sorry, I missed that");
+      System.out.println("I said I would be scared of aliens!");
+    }
+    // always use a code block, even for one-liners, to help prevent bugs if more code needs to be added in the future
+
+    int topScore = 100;
+    if (topScore == 100) {
+      System.out.println("You got the high score!");
+    }
+
+    if (topScore != 100) { // the ! operator looks for whether the oppsite is true. in this case, is topScore NOT equal to 100?
+      // the System.out below will not print
+      System.out.println("You did not score 100");
+    }
+
+    if (topScore > 100) {
+      // this will not print
+      System.out.println("You beat the high score!");
+    }
+
+    if (topScore >= 100) { // this looks to see if topScore is greater than or equal to 100
+      // this will print
+      System.out.println("You equaled or beat 100!");
+    }
+
+    if (topScore < 100) {
+      // this will not print
+      System.out.println("You got less than 100");
+    }
+
+    if (topScore <= 100) {  // this looks to see if topScore is less than or equal to 100 
+      // this will print
+      System.out.println("You equaled or got less than 100. You did not set the high score.");
+    }
+
+    topScore = 80;
+    int secondTopScore = 60;
+    if (topScore > secondTopScore && topScore < 100) { // && is the logical AND operator which checks to see if both statements are true
+      // this will print
+      System.out.println("topScore is greater than secondTopScore and less than 100");
+    }
+
+    secondTopScore = 81;
+    if (topScore > secondTopScore && topScore < 100) {
+      // this will not print
+      System.out.println("secondTopScore is now larger than topScore");
+    }
   }
 }
