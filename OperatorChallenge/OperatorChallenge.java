@@ -6,6 +6,7 @@ public class OperatorChallenge {
     // removing the () above will change the order of operations
     System.out.println("thirdDouble = " + thirdDouble);
     double fourthDouble = thirdDouble % 40.00d;
+    System.out.println("fourthDouble = " + fourthDouble);
     boolean isZero = fourthDouble == 0 ? true : false;
     System.out.println("isZero equals " + isZero);
     if (!isZero) {
