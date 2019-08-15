@@ -9,7 +9,7 @@ public class OperatorChallenge {
     boolean isZero = fourthDouble == 0 ? true : false;
     System.out.println("isZero equals " + isZero);
     if (!isZero) {
-      System.out.println("There is a remainder. isZero equals false.");
+      System.out.println("There is a remainder. isZero equals false. this won't print");
     }
   }
 }
