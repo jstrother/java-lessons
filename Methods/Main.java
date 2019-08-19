@@ -55,7 +55,7 @@ public class Main {
   }
 
   public static int calculateHighScorePosition(int playerScore) {
-    
+
     int position = 4; // assuming position 4 will be returned
 
     if (playerScore >= 1000) {
