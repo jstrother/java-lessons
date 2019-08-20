@@ -5,6 +5,7 @@ public class Main {
     calculatorScore(75);
     calculatorScore();
     calcFeetAndInchesToCentimeters(6, 2);
+    calcFeetAndInchesToCentimeters(4, 15);
     calcFeetAndInchesToCentimeters(15);
     calcFeetAndInchesToCentimeters(10);
     calcFeetAndInchesToCentimeters(-77);
@@ -37,7 +38,7 @@ public class Main {
   // * * * * * * * * * * * * * * *
        
   public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
-    if ((feet < 0) || (inches < 0) && (inches > 12)) {
+    if ((feet < 0) || (inches < 0) || (inches > 12)) {
       System.out.println("Returned -1 (First Function)");
       return -1;
     } else {
@@ -53,14 +54,14 @@ public class Main {
       return -1;
     } else if ((inches >= 0) && (inches <= 12)) {
       double centimeters = (inches * 2.54);
-      System.out.println(inches + "in " + "equals " + centimeters + "cm" + " Else If Block");
+      System.out.println(inches + "in equals " + centimeters + "cm" + " Else If Block");
       return centimeters;
     } else if (inches > 12) {
       double inchesToFeet = inches / 12;
       double newFeet = Math.floor(inchesToFeet);
       double newInches = Math.floor((inchesToFeet - newFeet) * 12);
       double centimeters = calcFeetAndInchesToCentimeters(newFeet, newInches);
-      System.out.println(inches + "in " + "equals " + centimeters + "cm" + " Else Block");
+      System.out.println(inches + "in equals " + centimeters + "cm" + " Else Block");
       return centimeters;
     } else {
       System.out.println("Something Else Happened");
