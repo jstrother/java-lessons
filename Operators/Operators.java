@@ -1,3 +1,5 @@
+package Operators;
+
 public class Operators {
   public static void main(String[] args) {
     // this is a comment. the computer will not read anything behind the double /. it is for human eyes only

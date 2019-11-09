@@ -1,3 +1,5 @@
+package codingExercises.Sum3And5;
+
 public class Main {
   public static void main(String[] args) {
     int sum = 0;

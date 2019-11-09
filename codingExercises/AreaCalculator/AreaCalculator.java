@@ -1,3 +1,5 @@
+package codingExercises.AreaCalculator;
+
 public class AreaCalculator {
   public static double area(double radius) {
     if (radius < 0) {

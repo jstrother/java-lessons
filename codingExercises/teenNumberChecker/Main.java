@@ -1,3 +1,5 @@
+package codingExercises.teenNumberChecker;
+
 public class Main {
   public static void main(String[] args) {
     System.out.println("hasTeen() 3 tests");

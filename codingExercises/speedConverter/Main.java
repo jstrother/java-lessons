@@ -1,3 +1,5 @@
+package codingExercises.speedConverter;
+
 public class Main {
   public static void main(String[] args) {
     long miles = SpeedConverter.toMilesPerHour(10.5);

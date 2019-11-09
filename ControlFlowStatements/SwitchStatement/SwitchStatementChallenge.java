@@ -1,3 +1,5 @@
+package ControlFlowStatements.SwitchStatement;
+
 public class SwitchStatementChallenge {
 
   public static void whichLetter(char letter) {

@@ -1,3 +1,5 @@
+package OperatorChallenge;
+
 public class OperatorChallenge {
   public static void main(String[] args) {
     double firstDouble = 20.00d;

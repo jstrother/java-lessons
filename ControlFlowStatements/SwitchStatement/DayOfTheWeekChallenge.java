@@ -1,3 +1,5 @@
+package ControlFlowStatements.SwitchStatement;
+
 public class DayOfTheWeekChallenge {
 
   public static void printDayOfWeek(int num) {

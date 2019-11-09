@@ -1,3 +1,5 @@
+package PrimitiveTypesChallenge;
+
 public class Main {
   public static void main(String[] args) {
     byte byteValue = 10;

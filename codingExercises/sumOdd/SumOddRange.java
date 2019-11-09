@@ -1,3 +1,5 @@
+package codingExercises.sumOdd;
+
 public class SumOddRange {
   public static boolean isOdd(int number) {
     if (number < 0) {
